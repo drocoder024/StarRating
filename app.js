@@ -11,13 +11,13 @@ const onHover = (star) => {
     star.addEventListener("mouseenter", event => {
         const img_id = event.target.id;
         for (let i = 0; i <= star_Ids.indexOf(img_id); i++) {
-            starArray[i].src = "/after.jpg";
+            starArray[i].src = "after.jpg";
         }
     })
     star.addEventListener("mouseleave", event => {
         const img_id = event.target.id;
         for (let i = 0; i <= star_Ids.indexOf(img_id); i++) {
-            starArray[i].src = "/before.jpg";
+            starArray[i].src = "before.jpg";
         }
     })
 
