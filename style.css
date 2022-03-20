@@ -1,0 +1,14 @@
+#content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:250px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
